@@ -24,7 +24,7 @@ function App() {
               <ThemeToggle />
             </div>
             <Routes>
-              <Route path="/" element={<LandingPage />} />
+              <Route path="/" element={<Login />} />
               <Route path="/login" element={<Login />} />
               <Route
                 path="/feed"
