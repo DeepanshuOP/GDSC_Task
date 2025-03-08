@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useContext, useEffect, useState, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { ThemeToggle } from './components/ThemeToggle';
 import { useThemeStore } from './store/theme';
 import { LandingPage } from './pages/LandingPage';
-import { Feed } from './pages/Feed';
+import Feed from './pages/Feed'
 import { Profile } from './pages/Profile';
 import { Login } from './pages/Login';
 import { AuthProvider, useAuth } from './context/AuthContext';

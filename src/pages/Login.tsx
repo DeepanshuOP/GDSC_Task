@@ -36,6 +36,7 @@ export const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
           className="p-2 border rounded"
         />
+        <p>user: testuser and password: password123</p>
         <button type="submit" className="bg-blue-500 text-white p-2 rounded">
           Login
         </button>
